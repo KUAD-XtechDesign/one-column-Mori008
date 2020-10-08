@@ -1,25 +1,30 @@
 
 body{
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(126, 126, 126);
 }
 
 .wrapper{
     max-width: 1000px;
-    background-color: black;
+    background-color: rgb(126,126,126);
     margin: 0 auto;
     }
 
 img{
-max-width: 90%;
+max-width: 100%;
 }
 
 .img_button img{
     display: block;
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+
 }
 
-.img_button:hover{
-    opacity: 0.8;
-    transition-duration: 0.3s;
+.img_button img:hover{
+    filter: grayscale(0);
+    transition-duration: 0.5s;
 }
 
 .content{
