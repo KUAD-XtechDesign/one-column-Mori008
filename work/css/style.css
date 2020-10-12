@@ -7,7 +7,7 @@ body{
     height: 50px;
     padding-left: 40px;
     margin: 20px;
-    padding-bottom: 18px;
+    padding-bottom: 15px;
     color: white;
     font-size:  25px;
 }
@@ -65,11 +65,6 @@ max-width: 100%;
     padding: 10px;
 }
 
-
-#content02 .close_button{
-    background-color: rgb(0, 153, 255);
-  }
-  
-  #content03 .close_button{
-    background-color: rgb(255, 0, 0);
-  }
+.end{
+    margin: 70px;
+}
