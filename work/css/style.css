@@ -4,18 +4,18 @@ body{
 }
 
 .title{
-    height: 50px;
+    
+    height: 70px;
     padding-left: 40px;
-    margin: 20px;
-    padding-bottom: 15px;
+    margin: auto;
     color: white;
     font-size:  25px;
-}
 
+}
 
 .wrapper{
     max-width: 1200px;
-    background-color: rgb(39,39,39);
+    background-color: rgb(17,17,17);
     margin:  auto;
     }
 
@@ -65,6 +65,3 @@ max-width: 100%;
     padding: 10px;
 }
 
-.end{
-    margin: 70px;
-}
